@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lilith Dev</title>
+        <link rel="stylesheet" href="main.css"/>
+        <script src="https://kit.fontawesome.com/a29f3f1e4b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container">
+                    <h1>LilithsDemon</h1>
+
+                    <div class = "menu">
+                        <ul class="nav_list">
+                            <li class="nav_item">
+                                <a href="#home" class="is-active">Home</a>
+                            </li>    
+                            <li class="nav_item">
+                                <a href="#projects" class="">Projects</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#services" class="">Resources</a>
+                            </li>    
+                            <li class="nav_item">
+                                <a href="#contact" class="">Contact</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#" class=""><i class="fa-solid fa-user"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <button class="m_m_item"><a href="#home">Home</a></button>
+                <button class="m_m_item"><a href="#projects">Projects</a></button>
+                <button class="m_m_item"><a href="#services">Resources</a></button>
+                <button class="m_m_item"><a href="#contact">Contact</a></button>
+                <button class="m_m_item"><a href="#">Login <i class="fa-solid fa-user"></i></a></button>
+            </div>
+        </header>
+
+        <section class = "home home_section" id="home">
+            <div class="section-container">
+                <div class="row">
+                    <div class="home_data">
+                        <p>Hello I am</p>
+                        <h1>Lucy Gardener</h1>
+                        <p>Developer</p>
+                        <div class="links">
+                            <ul>
+                                <li><a href="https://discordapp.com/users/LilithsDemon#5590"><i class="fa-brands fa-discord"></i></a></li>
+                                <li><a href="https://www.instagram.com/lucy__gardener/"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://github.com/LilithsDemon"><i class="fa-brands fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="home_data">
+                        <div class="home_picture">
+                            <img src="preview.png" alt="Picture of Lucy" class="home_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "projects section" id="projects">
+            <div class = "section-container">
+                <div class = "row">
+                    <div class="section-title padd-15">
+                        <h2>Projects</h2> 
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class="project_card padd-15">
+                        <div class="card_border">
+                            <h3 class="card_name">GW2 Trading Post Analytics</h3>
+
+                            <p>This is an application that reads an online JSON file to get data about the GW2 Trading post<br><br>
+                                The data is then used by the application to allow people to see data on every item<br><br>
+                                This program was made with python using tkinter
+                            </p>
+
+                            <ul class="card_links-list">
+                                <a href="https://github.com/LilithsDemon/GW2-TradingPostTkinter" class="card_links-link">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project_card padd-15">
+                        <div class="card_border">
+                            <h3 class="card_name">Revision Master</h3>
+
+                            <p>Revision Master is an application that allows for making notes and revision materials
+                                <br><br>
+                                Users can create different classes for different content and create flashcards/definition checks or multiple choice questions.
+                                <br><br>
+                                This project was made using C# and made in Unity
+                                <br>
+                                This project is ongoing as there are a lot of ideas I would like to implement for it stil
+                            </p>
+
+                            <ul class="card_links-list">
+                                <a href="https://github.com/LilithsDemon/Revision-Master" class="card_links-link">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project_card padd-15">
+                        <div class="card_border">
+                            <h3 class="card_name">Simple Ceaser Cipher</h3>
+
+                            <p>This is a simple project was made in python and C#<br><br>
+                            It is simply a caeser cipher but allows it to be used in other applications allowing it to be downloaded and then used in other projects</p>
+
+                            <ul class="card_links-list">
+                                <a href="https://github.com/LilithsDemon/Simple-Caeser" class="card_links-link">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project_card padd-15">
+                        <div class="card_border">
+                            <h3 class="card_name">Speed Test</h3>
+
+                            <p> This is a program that tests the speed of recursion vs iteration when calculating fibbonacci<br><br>
+                                It exports this in a graph for visual data, and can aslo be exported to an excel document for more compatibility <br><br>
+                                This project was made in python</p>
+                            
+                            <ul class="card_links-list">
+                                <a href="https://github.com/LilithsDemon/SpeedTest" class="card_links-link">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project_card padd-15">
+                        <div class="card_border">
+                            <h3 class="card_name">CSV Controller</h3>
+
+                            <p>A terminal application that can allows the manipulation of csv files<br><br>
+                                It can: create files, append to rows or coloumns or edit specific data in a csv file<br><br>
+                                This project was made in C++</p>
+
+
+                            <ul class="card_links-list">
+                                <a href="https://github.com/LilithsDemon/CSV-Controller" class="card_links-link">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "service section" id="services">
+            <div class ="section-container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Resources</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <a href="https://lilithnotes.remote.ac">
+                                <div class="icon">
+                                    <i class="fa fa-clipboard"></i>
+                                </div>
+                                <h4>Lilith Notes</h4>
+                                <p>LilithNotes is a website that allows people to share content that they want in a professional manner.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class ="section-container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>
