@@ -271,6 +271,27 @@ nav h1 {
     transition: 0.4s;
 }
 
+.home_data button
+{
+    margin-top: 20px;
+    border-radius: 30px;
+    min-width: 128px;
+    min-height: 42px;
+    background-color: var(--primary);
+    border-color: var(--bg_black);
+    border-style: solid;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    transition: all 0.5s ease;
+}
+
+.home_data button:hover
+{
+    background-color: var(--dark);
+    border-color: var(--primary);
+}
+
 .home_img
 {
     width: 190px;
